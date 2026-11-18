@@ -8,6 +8,8 @@
     }
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme static {
     --color-brand-100: #e6eef6;
     --color-brand-500: #002b5c;
