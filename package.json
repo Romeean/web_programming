@@ -25,6 +25,7 @@
     "autoprefixer": "^10.6.2",
     "postcss": "^8.5.33",
     "sass-embedded": "^1.108.2",
-    "vite": "^8.3.8"
+    "vite": "^8.3.8",
+    "vite-plugin-handlebars": "^2.0.3"
   }
 }
