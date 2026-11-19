@@ -1,14 +1,10 @@
 @import "tailwindcss" source("../..");
-@import "tailwindcss/utilities.css" layer(utilities) source('../..');
 
-@layer theme, base, components, utilities;
 @layer base {
     h1, h2, h3, h4, h5, h6 {
         font-weight: bold;
     }
 }
-
-@custom-variant dark (&:where(.dark, .dark *));
 
 @theme static {
     --color-brand-100: #e6eef6;
@@ -16,6 +12,7 @@
     --color-brand-600: #01356f;
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
 
 @layer component {
     .btn-brand{
