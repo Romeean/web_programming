@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Лабораторна 7 - Головна</title>
+    <meta name="description" content="Головна сторінка навчального лендінгу: новини, послуги, переваги."/>
+    <link rel="icon" href="/assets/autumn_calendar-O_fHnYi0.ico"/>
+  <script type="module" crossorigin src="/assets/main-CTVHQ16e.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/main-BDyiwGJE.js">
+  <link rel="stylesheet" crossorigin href="/assets/main-CYkCwxjA.css">
+</head>
+<body>
+<div class="layout">
+    <header class="header">
+        <h1 class="header__title">Лабораторна № 7</h1>
+        <nav class="nav">
+            <a href="index.html" class="nav__link">Головна</a>
+            <a href="about.html" class="nav__link">Про нас</a>
+            <a href="contacts.html" class="nav__link nav__link--cta">Контакти</a>
+        </nav>
+    </header>
+
+    <aside class="sidenav">
+        <section class="sidebar sidebar--links" aria-label="Корисні посилання">
+            <h3 class="sidebar__title">Корисні посилання</h3>
+            <ul class="sidebar__list">
+                <li class="sidebar__item">
+                    <a class="sidebar__link" href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="sidebar sidebar--values" aria-label="Цінності">
+            <h3 class="sidebar__title">Цінності</h3>
+            <ul class="sidebar__list">
+                <li class="sidebar__item">Якість коду та прозорість</li>
+                <li class="sidebar__item">Навчання через практику</li>
+                <li class="sidebar__item">Комунікація та підтримка</li>
+            </ul>
+        </section>
+
+        <section class="sidebar sidebar--social" aria-label="Соціальні мережі">
+            <h3 class="sidebar__title">Соціальні мережі</h3>
+            <ul class="sidebar__list">
+                <li class="sidebar__item"><a class="sidebar__link" href="#" aria-label="Facebook">Facebook</a></li>
+                <li class="sidebar__item"><a class="sidebar__link" href="#" aria-label="Instagram">Instagram</a></li>
+                <li class="sidebar__item"><a class="sidebar__link" href="#" aria-label="LinkedIn">LinkedIn</a></li>
+            </ul>
+        </section>
+    </aside>
+
+    <main class="main">
+        <section class="news">
+            <h2 class="news__title">Останні новини</h2>
+            <div class="news__list">
+                <article class="news-card card">
+                    <figure class="news-card__media media">
+                        <picture>
+                        <source type="image/avif" srcset="data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAG1pZjFhdmlmbWlhZgAAAXBtZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAADRpbG9jAAAAAERAAAIAAQAAAAABlAABAAAAAAAAAu4AAgAAAAAEggABAAAAAAAAAIUAAAA4aWluZgAAAAAAAgAAABVpbmZlAgAAAAABAABhdjAxAAAAABVpbmZlAgAAAAACAABhdjAxAAAAAA5waXRtAAAAAAABAAAAr2lwcnAAAACKaXBjbwAAAAxhdjFDgQAMAAAAABRpc3BlAAAAAAAAAIAAAACAAAAAEHBpeGkAAAAAAwgICAAAAAxhdjFDgQAcAAAAAA5waXhpAAAAAAEIAAAAOGF1eEMAAAAAdXJuOm1wZWc6bXBlZ0I6Y2ljcDpzeXN0ZW1zOmF1eGlsaWFyeTphbHBoYQAAAAAdaXBtYQAAAAAAAAACAAEDgQIDAAIEhAIFhgAAABppcmVmAAAAAAAAAA5hdXhsAAIAAQABAAADe21kYXQSAAoJGBm//2CAhoNCMt4FEgACiiihQN0rqC84L99NpuRo21bmv5DkdqhOdHAF0UeRU8MtNBP/VGs7YtZAMHQJprhSQzhDXRhQKE3/wcpEJqw8gCIgaLeRXZgUeQo+fIsJ5OEV5X9ZQbwc5uj36S1WF8Rj0Wo/31ldYyaim61M5/hL1W2g0TWBeAoSEe+ZJz+ZpK3XojYYQiumXpVfMSf4cn6ODJAzx36VCeIhikZcinYndSjkaHdsDwXIO3/4VhemTelYhjEzmOGtT+ApwvwBiM97EX5gVB5RwtRhsYHDAaaZZdWH77MoMg5E/bGs6ObW6fA3O5be6jMl9yh6VvfGVLq7L2tVRjMdLwENTZ3avEVmytMEi4aFwhGVEvwj9RdGTPL2zUhUCqqGEfTHk/lJPE0ubUWRR4rkb/c9hYrq8/gNcIWQk07LFqqDt33keXgjWdM+RA5yj9QCQfz713g8ktpx6EEdyCw4+cksTxN70r2kaZQU8arEtxRZ/eaDAWyNOI+C2rbaQNzfEvIsyXaQuT4skyGrusCDb3W8yebbXBx+CTm+1vUsgY6FOH5xjmnjMK8lgNU6v6UnGYHjYZD/o0KFCWgt8UR8W/+Hhm46RFigRxiK0tR7W6cJKbJff+fhFTJKipmk740/YrAMSDDYqU1oUdJ38Dd0eCLHpqpF5z/NSa+M/jn31jM1J99qBnDacje710HcRr3I5YpRINRvlYj3i8UZZiMCC/S+FMduXUV5k3vEOfdIqvabJyvTnaR2hW/2Xis/IFPP6IA2BI60L+MUFL7DNT1xM80L+7e6DC4nMJ/RA80O2ICdi8qRPwrZXWrgsZ/0RqvtMGblJvc1oPvLN4pO6h34MIVNe2np4XbUyxJzIjcgryKR+EEiUvZemzSg2mPwoIoohQhdzaQNYntFxzHXZ04Nc3hPHxEDZyStfzhzQowu0eohWXsN1UwqF0bPOy1NbsMTOy3Ft+DUwPkooTlhzihqowC7YqASAAoGGBm//2FQMnkSAAooUN0rtiFjzHPV6FViRBis/6QG6uAWrbB8nc77Y2CJRvZC2ZUOUvFYedaCAOnukq7Sfqgh0okzQynmJB/FzHTiyJGdHsZzfyEB2b6UacoRKILYIrxkvUa+sWi4k4vIK6hQ2pUyCT84769CBL3lidMkA64VIgi+">
+                        <source type="image/webp" srcset="data:image/webp;base64,UklGRowFAABXRUJQVlA4WAoAAAAQAAAAfwAAfwAAQUxQSJoAAAAJcFzbdqrc9xLcu/MeKOAPoQm3/mD0XXDLypuSiFDgto2SHDP8Ai+qvL+uXwg2eaFgutQZDEl5eVYv7IqgS30xzjSM2ejhHm0LxXGSlQx+E+yTqDhMUmPFe7Q1GOz8qxVYeugXSnS4YF7OSXJgdBsQLl0gPkC8zn+c/7iJuYi/JIkKF/oG/yyn8YKT/8VZVOIFLCRcOPASdXkGVlA4IMwEAAAwIACdASqAAIAAPpFEmkqlo6IhpRmbQLASCWYXgAJDCIfj/unZVTsd/j0fbdLzAeUJ+wHuy9ADpMPQA/gH+H60b9zv1QxGrv2/XDbePdT9g/AD0+ssOkn8ZvylsjPsA+bl7P8nwA/z+RR8KA9X94X2Ae/t8crNrmCl1iUuErpg8yoaHzVnJy0eabMOuq5P5f5qIap2EM4M3ckYEfDXl1krny4UnpwJCy8bKtGUMijmkV5LjPJ1IfL52QrY6g/QIAJrlCgu8qET/EnufU8G1xvWp/4NltPBmwlHvlHGGFITSyZcmOFWPrzoc9x87RHMomefWO3XSY5URGaYRV4LwFfI6/Vl10vNbp3XQAD+7kwmXtXoBuWH8yiHj0EcKYzb4opleDdkkm2IMByv3ezDI+6QO7KUDi1+tznUEDrWpJZ4HtA3/bdATQ6zO/eaLh/FWEHVsJ5gaIZCH4QNFy96xFG8Uq8QLH/543/NLoFbfcVcj/4Y1uMT+pmLo+2hCHS0VrzJOonfSaan/NSUumu/pQWYYoMXf3Mf9dosWIRq9MFP/UlMQZRe5SHT4OpsxcmMrVikw6ggda1JQE0VFzLFlx45v//HwWe2Kzmf/6lUeaKI3CZyaiMosLdUUuZT9vmV33Nb4DuDkFWDuFtsIJbBh6+PF+t/y0hdHGctYxTgnWmqiPeRAy2Wpb4y60TzQbIT5pDaSifZuHwAs7Ppe4Z8m/zN3mLVboK/Tq8T9Ojep3Y/6CPTRqpj+lptcJPCT9/EUM9tOQOLuAxssSexmEKhQaxdimUQehWl6dJG2/yFfy/XDm/0E+No4eeBy7hZpiy8cy5mlzQIIpsxo/iMABoYixyOHpdS+vAfvFFI/Pf/4arzuXmuUuyogkcHtNRhGex6XjP0CM63isDboHV5Qkd+Ny3ovu0O+XAkOQmqshe6Et81l/qDTUgZFWb4ZzZfsEq+aCPmdjZv7Ono6JK8mml4T8WFgd7Scn1EsHE8PpowKVIbOlq7ibUqMCSjQhBqpnMQXIPOSWKKJ7gIConuc2BST8KkSzy8Bqvi6FSOk6Mu3rc6M2fAVF9L+/rVL1ZlU4Oa1FEkLaoHStBfVZ1TOZHM+NbQk7BfzyXyeE0rkPF1fUC3RXGmC1PEI/1zXaxHS0o4nvC/8L9RFXzMEgzJZr6MSqsLuHDwoRBlLqOlxSvsKB5CaoMKiurJ5aDNEVZG/hBoDv29/OF7CdlA5DOwOoJ1QuP5ofiCCpn64wJQGKdwhfltXemm2l5quDx6SfpbxJw8taP1IADHE6f34/4OZp/en8/lssBtN95TM5UaXNGLtv8IlcZxPZmeYC1q8SZAdHTtuSED8ScF3cRsdgNkd03DO2cJGl//o83FtTKLciF52T2U/wwF3yK2wpLOxWrhdlSS6DgGX6fJkjyk1MIZyYvAZ6Co7expBb/+pTJSCYlhvPe3XDEGAncDQ2MH1Ffw3tUmnIR+6+m4kq1b5m/0L4UQvI0f87I7aii7Zo0NPjyCBP8FT/VUmLn3TSQ78pDo9TzT5bmFX4bzClmXQtUjPyRQHtM5hNsp0lxObsgNzTCN1mKsHqi2J5F0w3kgzjzbr3ACv5QxvgwOdgjzt3Fx28j1PNaBdqzt/QH2HN6iYGAA">
+                        <img
+                            src="data:image/webp;base64,UklGRowFAABXRUJQVlA4WAoAAAAQAAAAfwAAfwAAQUxQSJoAAAAJcFzbdqrc9xLcu/MeKOAPoQm3/mD0XXDLypuSiFDgto2SHDP8Ai+qvL+uXwg2eaFgutQZDEl5eVYv7IqgS30xzjSM2ejhHm0LxXGSlQx+E+yTqDhMUmPFe7Q1GOz8qxVYeugXSnS4YF7OSXJgdBsQLl0gPkC8zn+c/7iJuYi/JIkKF/oG/yyn8YKT/8VZVOIFLCRcOPASdXkGVlA4IMwEAAAwIACdASqAAIAAPpFEmkqlo6IhpRmbQLASCWYXgAJDCIfj/unZVTsd/j0fbdLzAeUJ+wHuy9ADpMPQA/gH+H60b9zv1QxGrv2/XDbePdT9g/AD0+ssOkn8ZvylsjPsA+bl7P8nwA/z+RR8KA9X94X2Ae/t8crNrmCl1iUuErpg8yoaHzVnJy0eabMOuq5P5f5qIap2EM4M3ckYEfDXl1krny4UnpwJCy8bKtGUMijmkV5LjPJ1IfL52QrY6g/QIAJrlCgu8qET/EnufU8G1xvWp/4NltPBmwlHvlHGGFITSyZcmOFWPrzoc9x87RHMomefWO3XSY5URGaYRV4LwFfI6/Vl10vNbp3XQAD+7kwmXtXoBuWH8yiHj0EcKYzb4opleDdkkm2IMByv3ezDI+6QO7KUDi1+tznUEDrWpJZ4HtA3/bdATQ6zO/eaLh/FWEHVsJ5gaIZCH4QNFy96xFG8Uq8QLH/543/NLoFbfcVcj/4Y1uMT+pmLo+2hCHS0VrzJOonfSaan/NSUumu/pQWYYoMXf3Mf9dosWIRq9MFP/UlMQZRe5SHT4OpsxcmMrVikw6ggda1JQE0VFzLFlx45v//HwWe2Kzmf/6lUeaKI3CZyaiMosLdUUuZT9vmV33Nb4DuDkFWDuFtsIJbBh6+PF+t/y0hdHGctYxTgnWmqiPeRAy2Wpb4y60TzQbIT5pDaSifZuHwAs7Ppe4Z8m/zN3mLVboK/Tq8T9Ojep3Y/6CPTRqpj+lptcJPCT9/EUM9tOQOLuAxssSexmEKhQaxdimUQehWl6dJG2/yFfy/XDm/0E+No4eeBy7hZpiy8cy5mlzQIIpsxo/iMABoYixyOHpdS+vAfvFFI/Pf/4arzuXmuUuyogkcHtNRhGex6XjP0CM63isDboHV5Qkd+Ny3ovu0O+XAkOQmqshe6Et81l/qDTUgZFWb4ZzZfsEq+aCPmdjZv7Ono6JK8mml4T8WFgd7Scn1EsHE8PpowKVIbOlq7ibUqMCSjQhBqpnMQXIPOSWKKJ7gIConuc2BST8KkSzy8Bqvi6FSOk6Mu3rc6M2fAVF9L+/rVL1ZlU4Oa1FEkLaoHStBfVZ1TOZHM+NbQk7BfzyXyeE0rkPF1fUC3RXGmC1PEI/1zXaxHS0o4nvC/8L9RFXzMEgzJZr6MSqsLuHDwoRBlLqOlxSvsKB5CaoMKiurJ5aDNEVZG/hBoDv29/OF7CdlA5DOwOoJ1QuP5ofiCCpn64wJQGKdwhfltXemm2l5quDx6SfpbxJw8taP1IADHE6f34/4OZp/en8/lssBtN95TM5UaXNGLtv8IlcZxPZmeYC1q8SZAdHTtuSED8ScF3cRsdgNkd03DO2cJGl//o83FtTKLciF52T2U/wwF3yK2wpLOxWrhdlSS6DgGX6fJkjyk1MIZyYvAZ6Co7expBb/+pTJSCYlhvPe3XDEGAncDQ2MH1Ffw3tUmnIR+6+m4kq1b5m/0L4UQvI0f87I7aii7Zo0NPjyCBP8FT/VUmLn3TSQ78pDo9TzT5bmFX4bzClmXQtUjPyRQHtM5hNsp0lxObsgNzTCN1mKsHqi2J5F0w3kgzjzbr3ACv5QxvgwOdgjzt3Fx28j1PNaBdqzt/QH2HN6iYGAA"
+                            alt="Flexbox + Grid"
+                            class="media__img"
+                            width="640" height="360"
+                            loading="lazy" decoding="async" />
+                        </picture>
+                    </figure>
+
+                    <h3 class="news-card__title text-[1.1rem] leading-tight">Старт навчального веб-проєкту</h3>
+                    <p class="news-card__excerpt text-[color:var(--fg-muted)]">Група розпочала роботу над веб-проєктом, який охопить HTML, CSS...</p>
+
+                    <div class="news-card__meta card__meta bg-white">
+                        <time class="news-card__date text-[color:var(--fg-muted)] text-[.95rem]">10 вер 2025</time>
+                        <a href="#" class="news-card__btn btn-brand">Читати далі</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <figure class="news-card__media media">
+                        <picture>
+                            <source type="image/avif" srcset="data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAG1pZjFhdmlmbWlhZgAAAXBtZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAADRpbG9jAAAAAERAAAIAAQAAAAABlAABAAAAAAAAAu4AAgAAAAAEggABAAAAAAAAAIUAAAA4aWluZgAAAAAAAgAAABVpbmZlAgAAAAABAABhdjAxAAAAABVpbmZlAgAAAAACAABhdjAxAAAAAA5waXRtAAAAAAABAAAAr2lwcnAAAACKaXBjbwAAAAxhdjFDgQAMAAAAABRpc3BlAAAAAAAAAIAAAACAAAAAEHBpeGkAAAAAAwgICAAAAAxhdjFDgQAcAAAAAA5waXhpAAAAAAEIAAAAOGF1eEMAAAAAdXJuOm1wZWc6bXBlZ0I6Y2ljcDpzeXN0ZW1zOmF1eGlsaWFyeTphbHBoYQAAAAAdaXBtYQAAAAAAAAACAAEDgQIDAAIEhAIFhgAAABppcmVmAAAAAAAAAA5hdXhsAAIAAQABAAADe21kYXQSAAoJGBm//2CAhoNCMt4FEgACiiihQN0rqC84L99NpuRo21bmv5DkdqhOdHAF0UeRU8MtNBP/VGs7YtZAMHQJprhSQzhDXRhQKE3/wcpEJqw8gCIgaLeRXZgUeQo+fIsJ5OEV5X9ZQbwc5uj36S1WF8Rj0Wo/31ldYyaim61M5/hL1W2g0TWBeAoSEe+ZJz+ZpK3XojYYQiumXpVfMSf4cn6ODJAzx36VCeIhikZcinYndSjkaHdsDwXIO3/4VhemTelYhjEzmOGtT+ApwvwBiM97EX5gVB5RwtRhsYHDAaaZZdWH77MoMg5E/bGs6ObW6fA3O5be6jMl9yh6VvfGVLq7L2tVRjMdLwENTZ3avEVmytMEi4aFwhGVEvwj9RdGTPL2zUhUCqqGEfTHk/lJPE0ubUWRR4rkb/c9hYrq8/gNcIWQk07LFqqDt33keXgjWdM+RA5yj9QCQfz713g8ktpx6EEdyCw4+cksTxN70r2kaZQU8arEtxRZ/eaDAWyNOI+C2rbaQNzfEvIsyXaQuT4skyGrusCDb3W8yebbXBx+CTm+1vUsgY6FOH5xjmnjMK8lgNU6v6UnGYHjYZD/o0KFCWgt8UR8W/+Hhm46RFigRxiK0tR7W6cJKbJff+fhFTJKipmk740/YrAMSDDYqU1oUdJ38Dd0eCLHpqpF5z/NSa+M/jn31jM1J99qBnDacje710HcRr3I5YpRINRvlYj3i8UZZiMCC/S+FMduXUV5k3vEOfdIqvabJyvTnaR2hW/2Xis/IFPP6IA2BI60L+MUFL7DNT1xM80L+7e6DC4nMJ/RA80O2ICdi8qRPwrZXWrgsZ/0RqvtMGblJvc1oPvLN4pO6h34MIVNe2np4XbUyxJzIjcgryKR+EEiUvZemzSg2mPwoIoohQhdzaQNYntFxzHXZ04Nc3hPHxEDZyStfzhzQowu0eohWXsN1UwqF0bPOy1NbsMTOy3Ft+DUwPkooTlhzihqowC7YqASAAoGGBm//2FQMnkSAAooUN0rtiFjzHPV6FViRBis/6QG6uAWrbB8nc77Y2CJRvZC2ZUOUvFYedaCAOnukq7Sfqgh0okzQynmJB/FzHTiyJGdHsZzfyEB2b6UacoRKILYIrxkvUa+sWi4k4vIK6hQ2pUyCT84769CBL3lidMkA64VIgi+">
+                            <source type="image/webp" srcset="data:image/webp;base64,UklGRowFAABXRUJQVlA4WAoAAAAQAAAAfwAAfwAAQUxQSJoAAAAJcFzbdqrc9xLcu/MeKOAPoQm3/mD0XXDLypuSiFDgto2SHDP8Ai+qvL+uXwg2eaFgutQZDEl5eVYv7IqgS30xzjSM2ejhHm0LxXGSlQx+E+yTqDhMUmPFe7Q1GOz8qxVYeugXSnS4YF7OSXJgdBsQLl0gPkC8zn+c/7iJuYi/JIkKF/oG/yyn8YKT/8VZVOIFLCRcOPASdXkGVlA4IMwEAAAwIACdASqAAIAAPpFEmkqlo6IhpRmbQLASCWYXgAJDCIfj/unZVTsd/j0fbdLzAeUJ+wHuy9ADpMPQA/gH+H60b9zv1QxGrv2/XDbePdT9g/AD0+ssOkn8ZvylsjPsA+bl7P8nwA/z+RR8KA9X94X2Ae/t8crNrmCl1iUuErpg8yoaHzVnJy0eabMOuq5P5f5qIap2EM4M3ckYEfDXl1krny4UnpwJCy8bKtGUMijmkV5LjPJ1IfL52QrY6g/QIAJrlCgu8qET/EnufU8G1xvWp/4NltPBmwlHvlHGGFITSyZcmOFWPrzoc9x87RHMomefWO3XSY5URGaYRV4LwFfI6/Vl10vNbp3XQAD+7kwmXtXoBuWH8yiHj0EcKYzb4opleDdkkm2IMByv3ezDI+6QO7KUDi1+tznUEDrWpJZ4HtA3/bdATQ6zO/eaLh/FWEHVsJ5gaIZCH4QNFy96xFG8Uq8QLH/543/NLoFbfcVcj/4Y1uMT+pmLo+2hCHS0VrzJOonfSaan/NSUumu/pQWYYoMXf3Mf9dosWIRq9MFP/UlMQZRe5SHT4OpsxcmMrVikw6ggda1JQE0VFzLFlx45v//HwWe2Kzmf/6lUeaKI3CZyaiMosLdUUuZT9vmV33Nb4DuDkFWDuFtsIJbBh6+PF+t/y0hdHGctYxTgnWmqiPeRAy2Wpb4y60TzQbIT5pDaSifZuHwAs7Ppe4Z8m/zN3mLVboK/Tq8T9Ojep3Y/6CPTRqpj+lptcJPCT9/EUM9tOQOLuAxssSexmEKhQaxdimUQehWl6dJG2/yFfy/XDm/0E+No4eeBy7hZpiy8cy5mlzQIIpsxo/iMABoYixyOHpdS+vAfvFFI/Pf/4arzuXmuUuyogkcHtNRhGex6XjP0CM63isDboHV5Qkd+Ny3ovu0O+XAkOQmqshe6Et81l/qDTUgZFWb4ZzZfsEq+aCPmdjZv7Ono6JK8mml4T8WFgd7Scn1EsHE8PpowKVIbOlq7ibUqMCSjQhBqpnMQXIPOSWKKJ7gIConuc2BST8KkSzy8Bqvi6FSOk6Mu3rc6M2fAVF9L+/rVL1ZlU4Oa1FEkLaoHStBfVZ1TOZHM+NbQk7BfzyXyeE0rkPF1fUC3RXGmC1PEI/1zXaxHS0o4nvC/8L9RFXzMEgzJZr6MSqsLuHDwoRBlLqOlxSvsKB5CaoMKiurJ5aDNEVZG/hBoDv29/OF7CdlA5DOwOoJ1QuP5ofiCCpn64wJQGKdwhfltXemm2l5quDx6SfpbxJw8taP1IADHE6f34/4OZp/en8/lssBtN95TM5UaXNGLtv8IlcZxPZmeYC1q8SZAdHTtuSED8ScF3cRsdgNkd03DO2cJGl//o83FtTKLciF52T2U/wwF3yK2wpLOxWrhdlSS6DgGX6fJkjyk1MIZyYvAZ6Co7expBb/+pTJSCYlhvPe3XDEGAncDQ2MH1Ffw3tUmnIR+6+m4kq1b5m/0L4UQvI0f87I7aii7Zo0NPjyCBP8FT/VUmLn3TSQ78pDo9TzT5bmFX4bzClmXQtUjPyRQHtM5hNsp0lxObsgNzTCN1mKsHqi2J5F0w3kgzjzbr3ACv5QxvgwOdgjzt3Fx28j1PNaBdqzt/QH2HN6iYGAA">
+                            <img
+                                    src="data:image/webp;base64,UklGRowFAABXRUJQVlA4WAoAAAAQAAAAfwAAfwAAQUxQSJoAAAAJcFzbdqrc9xLcu/MeKOAPoQm3/mD0XXDLypuSiFDgto2SHDP8Ai+qvL+uXwg2eaFgutQZDEl5eVYv7IqgS30xzjSM2ejhHm0LxXGSlQx+E+yTqDhMUmPFe7Q1GOz8qxVYeugXSnS4YF7OSXJgdBsQLl0gPkC8zn+c/7iJuYi/JIkKF/oG/yyn8YKT/8VZVOIFLCRcOPASdXkGVlA4IMwEAAAwIACdASqAAIAAPpFEmkqlo6IhpRmbQLASCWYXgAJDCIfj/unZVTsd/j0fbdLzAeUJ+wHuy9ADpMPQA/gH+H60b9zv1QxGrv2/XDbePdT9g/AD0+ssOkn8ZvylsjPsA+bl7P8nwA/z+RR8KA9X94X2Ae/t8crNrmCl1iUuErpg8yoaHzVnJy0eabMOuq5P5f5qIap2EM4M3ckYEfDXl1krny4UnpwJCy8bKtGUMijmkV5LjPJ1IfL52QrY6g/QIAJrlCgu8qET/EnufU8G1xvWp/4NltPBmwlHvlHGGFITSyZcmOFWPrzoc9x87RHMomefWO3XSY5URGaYRV4LwFfI6/Vl10vNbp3XQAD+7kwmXtXoBuWH8yiHj0EcKYzb4opleDdkkm2IMByv3ezDI+6QO7KUDi1+tznUEDrWpJZ4HtA3/bdATQ6zO/eaLh/FWEHVsJ5gaIZCH4QNFy96xFG8Uq8QLH/543/NLoFbfcVcj/4Y1uMT+pmLo+2hCHS0VrzJOonfSaan/NSUumu/pQWYYoMXf3Mf9dosWIRq9MFP/UlMQZRe5SHT4OpsxcmMrVikw6ggda1JQE0VFzLFlx45v//HwWe2Kzmf/6lUeaKI3CZyaiMosLdUUuZT9vmV33Nb4DuDkFWDuFtsIJbBh6+PF+t/y0hdHGctYxTgnWmqiPeRAy2Wpb4y60TzQbIT5pDaSifZuHwAs7Ppe4Z8m/zN3mLVboK/Tq8T9Ojep3Y/6CPTRqpj+lptcJPCT9/EUM9tOQOLuAxssSexmEKhQaxdimUQehWl6dJG2/yFfy/XDm/0E+No4eeBy7hZpiy8cy5mlzQIIpsxo/iMABoYixyOHpdS+vAfvFFI/Pf/4arzuXmuUuyogkcHtNRhGex6XjP0CM63isDboHV5Qkd+Ny3ovu0O+XAkOQmqshe6Et81l/qDTUgZFWb4ZzZfsEq+aCPmdjZv7Ono6JK8mml4T8WFgd7Scn1EsHE8PpowKVIbOlq7ibUqMCSjQhBqpnMQXIPOSWKKJ7gIConuc2BST8KkSzy8Bqvi6FSOk6Mu3rc6M2fAVF9L+/rVL1ZlU4Oa1FEkLaoHStBfVZ1TOZHM+NbQk7BfzyXyeE0rkPF1fUC3RXGmC1PEI/1zXaxHS0o4nvC/8L9RFXzMEgzJZr6MSqsLuHDwoRBlLqOlxSvsKB5CaoMKiurJ5aDNEVZG/hBoDv29/OF7CdlA5DOwOoJ1QuP5ofiCCpn64wJQGKdwhfltXemm2l5quDx6SfpbxJw8taP1IADHE6f34/4OZp/en8/lssBtN95TM5UaXNGLtv8IlcZxPZmeYC1q8SZAdHTtuSED8ScF3cRsdgNkd03DO2cJGl//o83FtTKLciF52T2U/wwF3yK2wpLOxWrhdlSS6DgGX6fJkjyk1MIZyYvAZ6Co7expBb/+pTJSCYlhvPe3XDEGAncDQ2MH1Ffw3tUmnIR+6+m4kq1b5m/0L4UQvI0f87I7aii7Zo0NPjyCBP8FT/VUmLn3TSQ78pDo9TzT5bmFX4bzClmXQtUjPyRQHtM5hNsp0lxObsgNzTCN1mKsHqi2J5F0w3kgzjzbr3ACv5QxvgwOdgjzt3Fx28j1PNaBdqzt/QH2HN6iYGAA"
+                                    alt="Flexbox + Grid"
+                                    class="media__img"
+                                    width="640" height="360"
+                                    loading="lazy" decoding="async" />
+                        </picture>
+                    </figure>
+                    <h3 class="news-card__title">Flexbox + Grid: практика</h3>
+                    <p class="news-card__excerpt">На четвертій лекції розберемо одновимірний та двовимірний лейаути з практикою…</p>
+                    <div class="news-card__meta">
+                        <time class="news-card__date" datetime="2026-09-12">12 вер 2026</time>
+                        <a href="#" class="news-card__btn">Читати далі</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <figure class="news-card__media media">
+                        <picture>
+                            <source type="image/avif" srcset="data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAG1pZjFhdmlmbWlhZgAAAXBtZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAADRpbG9jAAAAAERAAAIAAQAAAAABlAABAAAAAAAAAu4AAgAAAAAEggABAAAAAAAAAIUAAAA4aWluZgAAAAAAAgAAABVpbmZlAgAAAAABAABhdjAxAAAAABVpbmZlAgAAAAACAABhdjAxAAAAAA5waXRtAAAAAAABAAAAr2lwcnAAAACKaXBjbwAAAAxhdjFDgQAMAAAAABRpc3BlAAAAAAAAAIAAAACAAAAAEHBpeGkAAAAAAwgICAAAAAxhdjFDgQAcAAAAAA5waXhpAAAAAAEIAAAAOGF1eEMAAAAAdXJuOm1wZWc6bXBlZ0I6Y2ljcDpzeXN0ZW1zOmF1eGlsaWFyeTphbHBoYQAAAAAdaXBtYQAAAAAAAAACAAEDgQIDAAIEhAIFhgAAABppcmVmAAAAAAAAAA5hdXhsAAIAAQABAAADe21kYXQSAAoJGBm//2CAhoNCMt4FEgACiiihQN0rqC84L99NpuRo21bmv5DkdqhOdHAF0UeRU8MtNBP/VGs7YtZAMHQJprhSQzhDXRhQKE3/wcpEJqw8gCIgaLeRXZgUeQo+fIsJ5OEV5X9ZQbwc5uj36S1WF8Rj0Wo/31ldYyaim61M5/hL1W2g0TWBeAoSEe+ZJz+ZpK3XojYYQiumXpVfMSf4cn6ODJAzx36VCeIhikZcinYndSjkaHdsDwXIO3/4VhemTelYhjEzmOGtT+ApwvwBiM97EX5gVB5RwtRhsYHDAaaZZdWH77MoMg5E/bGs6ObW6fA3O5be6jMl9yh6VvfGVLq7L2tVRjMdLwENTZ3avEVmytMEi4aFwhGVEvwj9RdGTPL2zUhUCqqGEfTHk/lJPE0ubUWRR4rkb/c9hYrq8/gNcIWQk07LFqqDt33keXgjWdM+RA5yj9QCQfz713g8ktpx6EEdyCw4+cksTxN70r2kaZQU8arEtxRZ/eaDAWyNOI+C2rbaQNzfEvIsyXaQuT4skyGrusCDb3W8yebbXBx+CTm+1vUsgY6FOH5xjmnjMK8lgNU6v6UnGYHjYZD/o0KFCWgt8UR8W/+Hhm46RFigRxiK0tR7W6cJKbJff+fhFTJKipmk740/YrAMSDDYqU1oUdJ38Dd0eCLHpqpF5z/NSa+M/jn31jM1J99qBnDacje710HcRr3I5YpRINRvlYj3i8UZZiMCC/S+FMduXUV5k3vEOfdIqvabJyvTnaR2hW/2Xis/IFPP6IA2BI60L+MUFL7DNT1xM80L+7e6DC4nMJ/RA80O2ICdi8qRPwrZXWrgsZ/0RqvtMGblJvc1oPvLN4pO6h34MIVNe2np4XbUyxJzIjcgryKR+EEiUvZemzSg2mPwoIoohQhdzaQNYntFxzHXZ04Nc3hPHxEDZyStfzhzQowu0eohWXsN1UwqF0bPOy1NbsMTOy3Ft+DUwPkooTlhzihqowC7YqASAAoGGBm//2FQMnkSAAooUN0rtiFjzHPV6FViRBis/6QG6uAWrbB8nc77Y2CJRvZC2ZUOUvFYedaCAOnukq7Sfqgh0okzQynmJB/FzHTiyJGdHsZzfyEB2b6UacoRKILYIrxkvUa+sWi4k4vIK6hQ2pUyCT84769CBL3lidMkA64VIgi+">
+                            <source type="image/webp" srcset="data:image/webp;base64,UklGRowFAABXRUJQVlA4WAoAAAAQAAAAfwAAfwAAQUxQSJoAAAAJcFzbdqrc9xLcu/MeKOAPoQm3/mD0XXDLypuSiFDgto2SHDP8Ai+qvL+uXwg2eaFgutQZDEl5eVYv7IqgS30xzjSM2ejhHm0LxXGSlQx+E+yTqDhMUmPFe7Q1GOz8qxVYeugXSnS4YF7OSXJgdBsQLl0gPkC8zn+c/7iJuYi/JIkKF/oG/yyn8YKT/8VZVOIFLCRcOPASdXkGVlA4IMwEAAAwIACdASqAAIAAPpFEmkqlo6IhpRmbQLASCWYXgAJDCIfj/unZVTsd/j0fbdLzAeUJ+wHuy9ADpMPQA/gH+H60b9zv1QxGrv2/XDbePdT9g/AD0+ssOkn8ZvylsjPsA+bl7P8nwA/z+RR8KA9X94X2Ae/t8crNrmCl1iUuErpg8yoaHzVnJy0eabMOuq5P5f5qIap2EM4M3ckYEfDXl1krny4UnpwJCy8bKtGUMijmkV5LjPJ1IfL52QrY6g/QIAJrlCgu8qET/EnufU8G1xvWp/4NltPBmwlHvlHGGFITSyZcmOFWPrzoc9x87RHMomefWO3XSY5URGaYRV4LwFfI6/Vl10vNbp3XQAD+7kwmXtXoBuWH8yiHj0EcKYzb4opleDdkkm2IMByv3ezDI+6QO7KUDi1+tznUEDrWpJZ4HtA3/bdATQ6zO/eaLh/FWEHVsJ5gaIZCH4QNFy96xFG8Uq8QLH/543/NLoFbfcVcj/4Y1uMT+pmLo+2hCHS0VrzJOonfSaan/NSUumu/pQWYYoMXf3Mf9dosWIRq9MFP/UlMQZRe5SHT4OpsxcmMrVikw6ggda1JQE0VFzLFlx45v//HwWe2Kzmf/6lUeaKI3CZyaiMosLdUUuZT9vmV33Nb4DuDkFWDuFtsIJbBh6+PF+t/y0hdHGctYxTgnWmqiPeRAy2Wpb4y60TzQbIT5pDaSifZuHwAs7Ppe4Z8m/zN3mLVboK/Tq8T9Ojep3Y/6CPTRqpj+lptcJPCT9/EUM9tOQOLuAxssSexmEKhQaxdimUQehWl6dJG2/yFfy/XDm/0E+No4eeBy7hZpiy8cy5mlzQIIpsxo/iMABoYixyOHpdS+vAfvFFI/Pf/4arzuXmuUuyogkcHtNRhGex6XjP0CM63isDboHV5Qkd+Ny3ovu0O+XAkOQmqshe6Et81l/qDTUgZFWb4ZzZfsEq+aCPmdjZv7Ono6JK8mml4T8WFgd7Scn1EsHE8PpowKVIbOlq7ibUqMCSjQhBqpnMQXIPOSWKKJ7gIConuc2BST8KkSzy8Bqvi6FSOk6Mu3rc6M2fAVF9L+/rVL1ZlU4Oa1FEkLaoHStBfVZ1TOZHM+NbQk7BfzyXyeE0rkPF1fUC3RXGmC1PEI/1zXaxHS0o4nvC/8L9RFXzMEgzJZr6MSqsLuHDwoRBlLqOlxSvsKB5CaoMKiurJ5aDNEVZG/hBoDv29/OF7CdlA5DOwOoJ1QuP5ofiCCpn64wJQGKdwhfltXemm2l5quDx6SfpbxJw8taP1IADHE6f34/4OZp/en8/lssBtN95TM5UaXNGLtv8IlcZxPZmeYC1q8SZAdHTtuSED8ScF3cRsdgNkd03DO2cJGl//o83FtTKLciF52T2U/wwF3yK2wpLOxWrhdlSS6DgGX6fJkjyk1MIZyYvAZ6Co7expBb/+pTJSCYlhvPe3XDEGAncDQ2MH1Ffw3tUmnIR+6+m4kq1b5m/0L4UQvI0f87I7aii7Zo0NPjyCBP8FT/VUmLn3TSQ78pDo9TzT5bmFX4bzClmXQtUjPyRQHtM5hNsp0lxObsgNzTCN1mKsHqi2J5F0w3kgzjzbr3ACv5QxvgwOdgjzt3Fx28j1PNaBdqzt/QH2HN6iYGAA">
+                            <img
+                                    src="data:image/webp;base64,UklGRowFAABXRUJQVlA4WAoAAAAQAAAAfwAAfwAAQUxQSJoAAAAJcFzbdqrc9xLcu/MeKOAPoQm3/mD0XXDLypuSiFDgto2SHDP8Ai+qvL+uXwg2eaFgutQZDEl5eVYv7IqgS30xzjSM2ejhHm0LxXGSlQx+E+yTqDhMUmPFe7Q1GOz8qxVYeugXSnS4YF7OSXJgdBsQLl0gPkC8zn+c/7iJuYi/JIkKF/oG/yyn8YKT/8VZVOIFLCRcOPASdXkGVlA4IMwEAAAwIACdASqAAIAAPpFEmkqlo6IhpRmbQLASCWYXgAJDCIfj/unZVTsd/j0fbdLzAeUJ+wHuy9ADpMPQA/gH+H60b9zv1QxGrv2/XDbePdT9g/AD0+ssOkn8ZvylsjPsA+bl7P8nwA/z+RR8KA9X94X2Ae/t8crNrmCl1iUuErpg8yoaHzVnJy0eabMOuq5P5f5qIap2EM4M3ckYEfDXl1krny4UnpwJCy8bKtGUMijmkV5LjPJ1IfL52QrY6g/QIAJrlCgu8qET/EnufU8G1xvWp/4NltPBmwlHvlHGGFITSyZcmOFWPrzoc9x87RHMomefWO3XSY5URGaYRV4LwFfI6/Vl10vNbp3XQAD+7kwmXtXoBuWH8yiHj0EcKYzb4opleDdkkm2IMByv3ezDI+6QO7KUDi1+tznUEDrWpJZ4HtA3/bdATQ6zO/eaLh/FWEHVsJ5gaIZCH4QNFy96xFG8Uq8QLH/543/NLoFbfcVcj/4Y1uMT+pmLo+2hCHS0VrzJOonfSaan/NSUumu/pQWYYoMXf3Mf9dosWIRq9MFP/UlMQZRe5SHT4OpsxcmMrVikw6ggda1JQE0VFzLFlx45v//HwWe2Kzmf/6lUeaKI3CZyaiMosLdUUuZT9vmV33Nb4DuDkFWDuFtsIJbBh6+PF+t/y0hdHGctYxTgnWmqiPeRAy2Wpb4y60TzQbIT5pDaSifZuHwAs7Ppe4Z8m/zN3mLVboK/Tq8T9Ojep3Y/6CPTRqpj+lptcJPCT9/EUM9tOQOLuAxssSexmEKhQaxdimUQehWl6dJG2/yFfy/XDm/0E+No4eeBy7hZpiy8cy5mlzQIIpsxo/iMABoYixyOHpdS+vAfvFFI/Pf/4arzuXmuUuyogkcHtNRhGex6XjP0CM63isDboHV5Qkd+Ny3ovu0O+XAkOQmqshe6Et81l/qDTUgZFWb4ZzZfsEq+aCPmdjZv7Ono6JK8mml4T8WFgd7Scn1EsHE8PpowKVIbOlq7ibUqMCSjQhBqpnMQXIPOSWKKJ7gIConuc2BST8KkSzy8Bqvi6FSOk6Mu3rc6M2fAVF9L+/rVL1ZlU4Oa1FEkLaoHStBfVZ1TOZHM+NbQk7BfzyXyeE0rkPF1fUC3RXGmC1PEI/1zXaxHS0o4nvC/8L9RFXzMEgzJZr6MSqsLuHDwoRBlLqOlxSvsKB5CaoMKiurJ5aDNEVZG/hBoDv29/OF7CdlA5DOwOoJ1QuP5ofiCCpn64wJQGKdwhfltXemm2l5quDx6SfpbxJw8taP1IADHE6f34/4OZp/en8/lssBtN95TM5UaXNGLtv8IlcZxPZmeYC1q8SZAdHTtuSED8ScF3cRsdgNkd03DO2cJGl//o83FtTKLciF52T2U/wwF3yK2wpLOxWrhdlSS6DgGX6fJkjyk1MIZyYvAZ6Co7expBb/+pTJSCYlhvPe3XDEGAncDQ2MH1Ffw3tUmnIR+6+m4kq1b5m/0L4UQvI0f87I7aii7Zo0NPjyCBP8FT/VUmLn3TSQ78pDo9TzT5bmFX4bzClmXQtUjPyRQHtM5hNsp0lxObsgNzTCN1mKsHqi2J5F0w3kgzjzbr3ACv5QxvgwOdgjzt3Fx28j1PNaBdqzt/QH2HN6iYGAA"
+                                    alt="React"
+                                    class="media__img"
+                                    width="640" height="360"
+                                    loading="lazy" decoding="async" />
+                        </picture>
+                    </figure>
+                    <h3 class="news-card__title">React</h3>
+                    <p class="news-card__excerpt">Заплановано вивчення основ React…</p>
+                    <div class="news-card__meta">
+                        <time class="news-card__date" datetime="2026-09-15">15 вер 2026</time>
+                        <a href="#" class="news-card__btn">Читати далі</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <p class="footer__text">© 2026 Група <span class="footer__group-name">6.1214-ПІ-2</span></p>
+
+
+            <address class="footer__contacts" aria-label="Наші контакти">
+                <h3 class="footer__contacts-title">Наші контакти</h3>
+                <ul class="footer__contacts-list">
+                    <li class="footer__contacts-item">
+                        <span class="footer__label">Email:</span>
+                        <a class="footer__link" href="mailto:team@example.com">romannesterenkodev@gmail.com</a>
+                    </li>
+                    <li class="footer__contacts-item">
+                        <span class="footer__label">Телефон:</span>
+                        <a class="footer__link" href="tel:+380501112233">+38 (050) 111-22-33</a>
+                    </li>
+                    <li class="footer__contacts-item">
+                        <span class="footer__label">Адреса:</span>
+                        <span>Запоріжжя, вул. Університетська, 66Б</span>
+                    </li>
+                </ul>
+            </address>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

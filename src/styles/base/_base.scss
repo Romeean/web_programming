@@ -3,6 +3,7 @@
 
 // :root — місце для CSS-vars (їх можна перевизначати в темах)
 :root{
+  color-scheme: light;
   /* Бренд / текст / поверхні */
   --brand: #{ui.$brand};
   --brand-600: #{ui.$brand-600};
