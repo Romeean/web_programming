@@ -1,3 +1,4 @@
+
 export async function loadEmployees(limit = 3, { signal } = {}) {
     const url = `https://jsonplaceholder.typicode.com/users?_limit=${limit}`;
     const res = await fetch(url, { signal });

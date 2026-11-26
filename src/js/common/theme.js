@@ -1,3 +1,4 @@
+
 const KEY = 'theme';
 
 function systemPrefersDark() {
